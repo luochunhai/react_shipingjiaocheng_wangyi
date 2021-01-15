@@ -1,9 +1,9 @@
 import './App.css';
 import * as React from "react";
-import CommentAdd from "../comment-add/CommentAdd";
-import CommentList from "../comment-list/CommentList";
+import CommentAdd from "../comment/comment-add/CommentAdd";
+import CommentList from "../comment/comment-list/CommentList";
 
-class App extends React.Component {
+class CommentApp extends React.Component {
 
     constructor(props) {
         super(props);
@@ -57,4 +57,4 @@ class App extends React.Component {
     }
 }
 
-export default App;
+export default CommentApp;
