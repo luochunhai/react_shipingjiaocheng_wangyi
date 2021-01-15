@@ -5,11 +5,19 @@ import './style.css'
 
 class SearchApp extends React.Component {
 
+    state = {
+        searchName: ''
+    }
+
+    setSearchName = (searchName) => {
+        this.setState({searchName})
+    }
+
     render() {
         return (
             <div className="container">
-                <Search/>
-                <UserList/>
+                <Search setSearchName={this.setSearchName}/>
+                <UserList searchName={this.state.searchName}/>
             </div>
         )
     }
