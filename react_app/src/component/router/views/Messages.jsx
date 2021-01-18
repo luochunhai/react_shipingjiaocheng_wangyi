@@ -1,5 +1,5 @@
 import * as React from "react";
-import {BrowserRouter as Router, NavLink, Route} from "react-router-dom";
+import {NavLink, Route} from "react-router-dom";
 import MessageDetail from "./MessageDetail";
 
 class Messages extends React.Component {
@@ -19,24 +19,50 @@ class Messages extends React.Component {
         }, 10)
     }
 
+    showMessageDetailPush = (id) => {
+        this.props.history.push(`/router/home/messages/detail/${id}`)
+    }
+
+    showMessageDetailReplace = (id) => {
+        this.props.history.replace(`/router/home/messages/detail/${id}`)
+    }
+
+    back = () => {
+        this.props.history.goBack()
+    }
+
+    forward = () => {
+        this.props.history.goForward()
+    }
+
+
     render() {
         return (
-            <Router>
-                <div>
-                    <ul>
-                        {
-                            this.state.messages.map((msg, index) => (
-                                <li key={index}>
-                                    <NavLink to={`/router/home/messages/detail/${msg.id}`}>{msg.title}</NavLink>
-                                </li>
-                            ))
-                        }
-                    </ul>
+            <div>
+                <ul>
+                    {
+                        this.state.messages.map((msg, index) => (
+                            <li key={index}>
+                                <NavLink to={`/router/home/messages/detail/${msg.id}`}>{msg.title}</NavLink>
+                                &nbsp;&nbsp;
+                                <button onClick={this.showMessageDetailPush.bind(this, msg.id)}>push detail</button>
+                                &nbsp;&nbsp;
+                                <button onClick={() => {
+                                    this.showMessageDetailReplace(msg.id)
+                                }}>replace detail
+                                </button>
+                            </li>
+                        ))
+                    }
+                </ul>
+                <p>
+                    <button onClick={this.back}>back</button>
+                    <button onClick={this.forward}>forward</button>
+                </p>
 
-                    <Route path='/router/home/messages/detail/:id' component={MessageDetail}/>
+                <Route path='/router/home/messages/detail/:id' component={MessageDetail}/>
 
-                </div>
-            </Router>
+            </div>
         )
     }
 }

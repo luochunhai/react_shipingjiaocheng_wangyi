@@ -1,5 +1,5 @@
 import * as React from "react";
-import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
+import {Redirect, Route, Switch} from "react-router-dom";
 import RouterAbout from "./RouterAbout";
 import RouterHome from "./RouterHome";
 import './style.css';
@@ -17,7 +17,7 @@ class RouterApp extends React.Component {
 
     render() {
         return (
-            <Router>
+            <div>
                 <div className="row">
                     <div className="col-xs-offset-2 col-xs-8">
                         <div className="page-header">
@@ -38,16 +38,14 @@ class RouterApp extends React.Component {
                                 <Switch>
                                     <Route path="/router/home" exact component={RouterHome}/>
                                     <Route path="/router/about" component={RouterAbout}/>
-                                    {/*<Redirect to="/router/about"/>*/}
+                                    <Redirect to="/router/about"/>
                                 </Switch>
                             </div>
                         </div>
 
                     </div>
                 </div>
-
-
-            </Router>
+            </div>
         )
     }
 }
