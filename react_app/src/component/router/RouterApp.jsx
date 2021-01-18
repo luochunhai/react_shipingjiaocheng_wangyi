@@ -1,7 +1,9 @@
 import * as React from "react";
-import {BrowserRouter as Router, NavLink, Route, Switch, Redirect} from "react-router-dom";
+import {BrowserRouter as Router, Redirect, Route, Switch} from "react-router-dom";
 import RouterAbout from "./RouterAbout";
 import RouterHome from "./RouterHome";
+import './style.css';
+import MyNavLink from "./MyNavLink";
 
 class RouterApp extends React.Component {
 
@@ -19,8 +21,8 @@ class RouterApp extends React.Component {
                 <div className="row">
                     <div className="col-xs-2 col-xs-offset-2">
                         <div className="list-group">
-                            <NavLink className="list-group-item" to="/router/home">Router Home</NavLink>
-                            <NavLink className="list-group-item" to="/router/about">Router About</NavLink>
+                            <MyNavLink className="list-group-item" to="/router/home">Router Home</MyNavLink>
+                            <MyNavLink className="list-group-item" to="/router/about">Router About</MyNavLink>
                         </div>
                     </div>
                     <div className='col-xs-6'>
