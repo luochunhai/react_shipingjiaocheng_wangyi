@@ -1,8 +1,8 @@
 import * as React from "react";
 import SearchApp from "./component/search/SearchApp";
 import CommentApp from "./component/comment/app/CommentApp";
-import {BrowserRouter as Router, Link, Route, Switch} from "react-router-dom";
-import RouterApp from "./component/router/SearchApp";
+import {BrowserRouter as Router, NavLink, Route, Switch} from "react-router-dom";
+import RouterApp from "./component/router/RouterApp";
 import Home from "./component/Home";
 
 class App extends React.Component {
@@ -12,10 +12,10 @@ class App extends React.Component {
                 <div>
                     <nav>
                         <ul className="nav nav-pills">
-                            <li role="presentation" className="active"><Link to="/">Home</Link></li>
-                            <li role="presentation"><Link to="/search">Search</Link></li>
-                            <li role="presentation"><Link to="/comment">Comment</Link></li>
-                            <li role="presentation"><Link to="/router">React Router</Link></li>
+                            <li role="presentation" className="active"><NavLink to="/">Home</NavLink></li>
+                            <li role="presentation"><NavLink to="/search">Search</NavLink></li>
+                            <li role="presentation"><NavLink to="/comment">Comment</NavLink></li>
+                            <li role="presentation"><NavLink to="/router">React Router</NavLink></li>
                         </ul>
                     </nav>
 

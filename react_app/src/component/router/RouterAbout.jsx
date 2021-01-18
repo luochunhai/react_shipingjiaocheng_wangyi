@@ -1,15 +1,15 @@
 import * as React from "react";
 
-class RouterApp extends React.Component {
+class RouterAbout extends React.Component {
 
 
     render() {
         return (
             <div>
-                router
+                RouterAbout
             </div>
         )
     }
 }
 
-export default RouterApp;
+export default RouterAbout;
