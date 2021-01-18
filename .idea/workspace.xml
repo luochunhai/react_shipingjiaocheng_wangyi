@@ -2,12 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c14a5087-09f7-4a4f-9b73-02a412ba169c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/react_app/src/component/Home.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react_app/src/component/router/SearchApp.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/react_app/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/react_app/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react_app/src/component/search/Search.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/react_app/src/component/search/Search.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react_app/src/component/search/SearchApp.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/react_app/src/component/search/SearchApp.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react_app/src/component/search/UserList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/react_app/src/component/search/UserList.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react_app/src/component/search/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/react_app/src/component/search/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react_app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/react_app/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react_app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/react_app/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react_app/public/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react_app/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/react_app/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react_app/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/react_app/src/App.jsx" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,53 +27,50 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/react_app/src/component/search/SearchApp.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
-              <folding>
-                <element signature="e#0#31#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/react_app/src/component/search/Search.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="23" column="43" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/react_app/src/component/search/UserList.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="32" column="70" selection-start-line="32" selection-start-column="70" selection-end-line="32" selection-end-column="70" />
-              <folding>
-                <element signature="e#0#31#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/react_app/package.json">
+        <entry file="file://$PROJECT_DIR$/react_app/src/App.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="18" column="4" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+            <state relative-caret-position="513">
+              <caret line="30" column="32" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/react_app/src/component/search/style.css">
+        <entry file="file://$PROJECT_DIR$/react_app/src/component/Home.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="152">
+              <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/react_app/src/component/comment/comment-add/CommentAdd.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="38" column="37" lean-forward="true" selection-start-line="38" selection-start-column="37" selection-end-line="38" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/react_app/src/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/react_app/public/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="532">
+              <caret line="40" column="44" selection-start-line="40" selection-start-column="44" selection-end-line="40" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -77,7 +78,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/react_app/src/component/comment/app/CommentApp.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
+            <state relative-caret-position="662">
               <caret line="38" column="14" selection-start-line="38" selection-start-column="14" selection-end-line="38" selection-end-column="14" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
@@ -87,10 +88,24 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/react_app/package-lock.json">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/react_app/src/component/comment/app/App.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
               <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/react_app/src/component/router/SearchApp.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
@@ -116,7 +131,6 @@
         <option value="$PROJECT_DIR$/06_components_refs_event/test.html" />
         <option value="$PROJECT_DIR$/08_components_form/test.html" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/react_app/public/index.html" />
         <option value="$PROJECT_DIR$/react_app/src/component/comment-list/CommentAdd.jsx" />
         <option value="$PROJECT_DIR$/react_app/src/component/comment-add/CommentAdd.jsx" />
         <option value="$PROJECT_DIR$/react_app/src/component/comment-list/style.css" />
@@ -128,12 +142,15 @@
         <option value="$PROJECT_DIR$/react_app/src/component/search/app.jsx" />
         <option value="$PROJECT_DIR$/react_app/src/component/comment/app/CommentApp.jsx" />
         <option value="$PROJECT_DIR$/react_app/src/index.js" />
-        <option value="$PROJECT_DIR$/react_app/src/App.jsx" />
         <option value="$PROJECT_DIR$/react_app/src/component/search/UserItem.jsx" />
         <option value="$PROJECT_DIR$/react_app/src/component/search/SearchApp.jsx" />
         <option value="$PROJECT_DIR$/react_app/src/component/search/Search.jsx" />
-        <option value="$PROJECT_DIR$/react_app/src/component/search/UserList.jsx" />
         <option value="$PROJECT_DIR$/react_app/src/component/search/style.css" />
+        <option value="$PROJECT_DIR$/react_app/src/component/search/UserList.jsx" />
+        <option value="$PROJECT_DIR$/react_app/src/component/router/SearchApp.jsx" />
+        <option value="$PROJECT_DIR$/react_app/public/index.html" />
+        <option value="$PROJECT_DIR$/react_app/src/component/Home.jsx" />
+        <option value="$PROJECT_DIR$/react_app/src/App.jsx" />
       </list>
     </option>
   </component>
@@ -144,8 +161,8 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2171" />
-    <option name="y" value="264" />
+    <option name="x" value="1912" />
+    <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1066" />
   </component>
@@ -155,7 +172,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -187,19 +203,20 @@
               <item name="react_app" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="component" type="462c0819:PsiDirectoryNode" />
-              <item name="search" type="462c0819:PsiDirectoryNode" />
+              <item name="router" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/react_app/src/component/search" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/react_app/src/component" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -208,17 +225,17 @@
     <property name="ts.external.directory.path" value="D:\Program Files\JetBrains\WebStorm 2019.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\web\react_shipin_jiaocheng_wangyi\react_app\src\component" />
+      <recent name="D:\web\react_shipin_jiaocheng_wangyi\react_app\src\component\router" />
+      <recent name="D:\web\react_shipin_jiaocheng_wangyi\react_app\src\component\search" />
+      <recent name="D:\web\react_shipin_jiaocheng_wangyi\react_app\src" />
+      <recent name="D:\web\react_shipin_jiaocheng_wangyi" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\web\react_shipin_jiaocheng_wangyi\react_app\src\component" />
       <recent name="D:\web\react_shipin_jiaocheng_wangyi\react_app\src\component\comment" />
       <recent name="D:\web\react_shipin_jiaocheng_wangyi\react_app\src\component\app" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\web\react_shipin_jiaocheng_wangyi\react_app\src\component\search" />
-      <recent name="D:\web\react_shipin_jiaocheng_wangyi\react_app\src" />
-      <recent name="D:\web\react_shipin_jiaocheng_wangyi" />
-      <recent name="D:\web\react_shipin_jiaocheng_wangyi\react_app\src\component\comment-item" />
-      <recent name="D:\web\react_shipin_jiaocheng_wangyi\react_app\src\component\comment-list" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -244,21 +261,20 @@
       <option name="presentableId" value="Default" />
       <updated>1610594590058</updated>
       <workItem from="1610594591325" duration="5986000" />
-      <workItem from="1610615100007" duration="18256000" />
+      <workItem from="1610615100007" duration="19243000" />
+      <workItem from="1610946197219" duration="2702000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24242000" />
+    <option name="totallyTimeSpent" value="27931000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49825785" visible="true" weight="0.24973656" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49825785" visible="true" weight="0.24973656" />
       <window_info id="Structure" order="1" sideWeight="0.5017422" side_tool="true" weight="0.24973656" />
       <window_info id="Favorites" order="2" sideWeight="0.5017422" side_tool="true" weight="0.24973656" />
-      <window_info anchor="bottom" id="TypeScript" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -268,8 +284,9 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.2585837" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.22103004" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="TypeScript" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -317,46 +334,16 @@
     <entry file="file://$PROJECT_DIR$/react_app/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/react_app/src/App.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#56#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/react_app/src/setupTests.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/react_app/src/App.test.js" />
+    <entry file="file://$PROJECT_DIR$/react_app/src/setupTests.js" />
     <entry file="file://$PROJECT_DIR$/react_app/src/logo.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/react_app/src/index.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/react_app/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="27" column="10" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/react_app/.eslintcache">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/react_app/public/css/bootstrap.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="4" column="88924" selection-start-line="4" selection-start-column="88924" selection-end-line="4" selection-end-column="88924" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/react_app/node_modules/@types/babel__traverse/index.d.ts">
       <provider selected="true" editor-type-id="text-editor">
@@ -369,13 +356,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="311">
           <caret line="34" column="73" selection-start-line="34" selection-start-column="63" selection-end-line="34" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/react_app/src/component/comment/comment-add/CommentAdd.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
         </state>
       </provider>
     </entry>
@@ -434,23 +414,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/react_app/src/component/comment/app/App.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/react_app/src/component/comment/app/CommentApp.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="38" column="14" selection-start-line="38" selection-start-column="14" selection-end-line="38" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/react.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -458,36 +421,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/react_app/src/App.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/react_app/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/react_app/src/component/search/SearchApp.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/react_app/src/component/search/Search.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
+        <state relative-caret-position="437">
           <caret line="23" column="43" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
         </state>
       </provider>
@@ -501,8 +437,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/react_app/src/component/search/UserList.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="32" column="70" selection-start-line="32" selection-start-column="70" selection-end-line="32" selection-end-column="70" />
+        <state relative-caret-position="361">
+          <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react_app/src/component/search/SearchApp.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
@@ -511,8 +457,94 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/react_app/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="18" column="4" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+        <state relative-caret-position="513">
+          <caret line="39" column="18" selection-start-line="39" selection-start-column="3" selection-end-line="39" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react_app/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react_app/public/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="4" column="88924" selection-start-line="4" selection-start-column="88924" selection-end-line="4" selection-end-column="88924" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react_app/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react_app/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="40" column="44" selection-start-line="40" selection-start-column="44" selection-end-line="40" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="6556" column="1" selection-start-line="6556" selection-start-column="1" selection-end-line="6556" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react_app/src/component/comment/app/App.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react_app/src/component/comment/app/CommentApp.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="662">
+          <caret line="38" column="14" selection-start-line="38" selection-start-column="14" selection-end-line="38" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react_app/node_modules/bootstrap/less/forms.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="541" column="1" selection-start-line="541" selection-start-column="1" selection-end-line="541" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react_app/src/component/comment/comment-add/CommentAdd.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="38" column="37" lean-forward="true" selection-start-line="38" selection-start-column="37" selection-end-line="38" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react_app/src/component/router/SearchApp.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react_app/src/component/Home.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react_app/src/App.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="30" column="32" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
