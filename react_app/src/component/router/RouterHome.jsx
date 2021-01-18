@@ -18,13 +18,13 @@ class RouterHome extends React.Component {
                             <MyNavLink to="/router/home/news">News</MyNavLink>
                         </li>
                         <li>
-                            <MyNavLink to="/router/home/message">Message</MyNavLink>
+                            <MyNavLink to="/router/home/messages">Message</MyNavLink>
                         </li>
                     </ul>
                 </div>
                 <Switch>
-                    <Route path="/router/home/news" exact component={News}/>
-                    <Route path="/router/home/message" exact component={Messages}/>
+                    <Route path='/router/home/news' component={News}/>
+                    <Route path='/router/home/messages' component={Messages}/>
                 </Switch>
             </Router>
         )

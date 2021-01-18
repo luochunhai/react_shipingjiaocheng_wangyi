@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c14a5087-09f7-4a4f-9b73-02a412ba169c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/react_app/src/component/router/views/Messages.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react_app/src/component/router/views/News.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react_app/src/component/router/views/MessageDetail.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/react_app/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/react_app/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react_app/src/component/router/MyNavLink.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/react_app/src/component/router/MyNavLink.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react_app/src/component/router/RouterAbout.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/react_app/src/component/router/RouterAbout.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/react_app/src/component/router/RouterApp.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/react_app/src/component/router/RouterApp.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/react_app/src/component/router/RouterHome.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/react_app/src/component/router/RouterHome.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react_app/src/component/router/views/Messages.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/react_app/src/component/router/views/Messages.jsx" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -26,10 +24,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/react_app/src/component/router/RouterApp.jsx">
+        <entry file="file://$PROJECT_DIR$/react_app/src/component/router/views/Messages.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="40" column="58" lean-forward="true" selection-start-line="40" selection-start-column="58" selection-end-line="40" selection-end-column="58" />
+            <state relative-caret-position="323">
+              <caret line="18" column="14" lean-forward="true" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
@@ -38,10 +36,43 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/react_app/src/component/router/RouterApp.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="855">
+              <caret line="45" column="26" lean-forward="true" selection-start-line="45" selection-start-column="26" selection-end-line="45" selection-end-column="26" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/react_app/src/component/router/RouterHome.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="17" column="38" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="38" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/react_app/src/component/Home.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/react_app/src/App.jsx">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
-              <caret line="15" column="56" lean-forward="true" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="60" />
+              <caret line="15" column="54" lean-forward="true" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="60" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
@@ -59,40 +90,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/react_app/src/component/router/views/Messages.jsx">
+        <entry file="file://$PROJECT_DIR$/react_app/src/component/router/views/MessageDetail.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="16" column="15" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/react_app/src/component/router/MyNavLink.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-              <folding>
-                <element signature="e#0#31#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/react_app/src/component/router/RouterHome.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-15">
-              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/react_app/src/component/router/RouterAbout.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+            <state relative-caret-position="152">
+              <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -141,12 +142,13 @@
         <option value="$PROJECT_DIR$/react_app/src/component/router/style.css" />
         <option value="$PROJECT_DIR$/react_app/src/component/router/MyNavLink" />
         <option value="$PROJECT_DIR$/react_app/src/component/router/views/News.jsx" />
-        <option value="$PROJECT_DIR$/react_app/src/component/router/views/Messages.jsx" />
         <option value="$PROJECT_DIR$/react_app/src/component/router/RouterAbout.jsx" />
         <option value="$PROJECT_DIR$/react_app/src/App.jsx" />
         <option value="$PROJECT_DIR$/react_app/src/component/router/MyNavLink.jsx" />
-        <option value="$PROJECT_DIR$/react_app/src/component/router/RouterHome.jsx" />
         <option value="$PROJECT_DIR$/react_app/src/component/router/RouterApp.jsx" />
+        <option value="$PROJECT_DIR$/react_app/src/component/router/RouterHome.jsx" />
+        <option value="$PROJECT_DIR$/react_app/src/component/router/views/MessageDetail.jsx" />
+        <option value="$PROJECT_DIR$/react_app/src/component/router/views/Messages.jsx" />
       </list>
     </option>
   </component>
@@ -156,7 +158,7 @@
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="1912" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
@@ -267,18 +269,17 @@
       <updated>1610594590058</updated>
       <workItem from="1610594591325" duration="5986000" />
       <workItem from="1610615100007" duration="19243000" />
-      <workItem from="1610946197219" duration="6873000" />
+      <workItem from="1610946197219" duration="9371000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32102000" />
+    <option name="totallyTimeSpent" value="34600000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49825785" visible="true" weight="0.24973656" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49825785" visible="true" weight="0.24973656" />
       <window_info id="Structure" order="1" sideWeight="0.5017422" side_tool="true" weight="0.24973656" />
       <window_info id="Favorites" order="2" sideWeight="0.5017422" side_tool="true" weight="0.24973656" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -290,7 +291,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.22854078" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.3004292" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="TypeScript" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -533,13 +534,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/react_app/src/component/Home.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/react_app/src/index.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
@@ -554,34 +548,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/react_app/node_modules/react-router-dom/esm/react-router-dom.js">
+    <entry file="file://$PROJECT_DIR$/react_app/src/component/router/RouterAbout.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="246" column="4" selection-start-line="246" selection-start-column="4" selection-end-line="246" selection-end-column="4" />
+        <state relative-caret-position="209">
+          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/react_app/src/component/router/views/Messages.jsx">
+    <entry file="file://$PROJECT_DIR$/react_app/src/component/router/MyNavLink.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="15" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/react_app/src/App.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="56" lean-forward="true" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="60" />
+        <state relative-caret-position="266">
+          <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/react_app/src/component/router/RouterHome.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-15">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
@@ -592,17 +572,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/react_app/src/component/router/RouterAbout.jsx">
+    <entry file="file://$PROJECT_DIR$/react_app/node_modules/react-router-dom/modules/NavLink.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        <state relative-caret-position="208">
+          <caret line="44" column="6" selection-start-line="44" selection-start-column="6" selection-end-line="44" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/react_app/src/component/router/MyNavLink.jsx">
+    <entry file="file://$PROJECT_DIR$/react_app/src/component/Home.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        <state relative-caret-position="152">
+          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react_app/node_modules/react-router-dom/esm/react-router-dom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="246" column="4" selection-start-line="246" selection-start-column="4" selection-end-line="246" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react_app/src/App.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="54" lean-forward="true" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="60" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
@@ -611,8 +605,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/react_app/src/component/router/RouterApp.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="40" column="58" lean-forward="true" selection-start-line="40" selection-start-column="58" selection-end-line="40" selection-end-column="58" />
+        <state relative-caret-position="855">
+          <caret line="45" column="26" lean-forward="true" selection-start-line="45" selection-start-column="26" selection-end-line="45" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react_app/src/component/router/RouterHome.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="38" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react_app/src/component/router/views/MessageDetail.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react_app/src/component/router/views/Messages.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="18" column="14" lean-forward="true" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
