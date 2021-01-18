@@ -6,7 +6,7 @@ class RouterAbout extends React.Component {
     render() {
         return (
             <div>
-                RouterAbout
+                <h2>Router About</h2>
             </div>
         )
     }

@@ -8,7 +8,7 @@ class MyNavLink extends React.Component {
      * @returns {*}
      */
     render() {
-        return <NavLink {...this.props} activeClassName="activeClass">Router Home</NavLink>
+        return <NavLink {...this.props} activeClassName="activeClass"/>
     }
 }
 
