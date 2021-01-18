@@ -35,6 +35,11 @@ class Messages extends React.Component {
         this.props.history.goForward()
     }
 
+    reqPage = ()=>{
+        //通过js 进行页面跳转
+        window.location = 'http://www.baidu.com'
+    }
+
 
     render() {
         return (
@@ -60,6 +65,7 @@ class Messages extends React.Component {
                     <button onClick={this.forward}>forward</button>
                 </p>
 
+                <button onClick={this.reqPage}>jump to baidu</button>
                 <Route path='/router/home/messages/detail/:id' component={MessageDetail}/>
 
             </div>
