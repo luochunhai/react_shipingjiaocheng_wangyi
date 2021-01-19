@@ -5,6 +5,7 @@ import {NavLink, Route, Switch} from "react-router-dom";
 import RouterApp from "./component/router/RouterApp";
 import Home from "./component/Home";
 import VideoApp from "./component/video/VideoApp";
+import AntdApp from "./component/antd/AntdApp";
 
 class App extends React.Component {
     render() {
@@ -17,6 +18,7 @@ class App extends React.Component {
                         <li role="presentation"><NavLink to="/comment">Comment</NavLink></li>
                         <li role="presentation"><NavLink to="/router">React Router</NavLink></li>
                         <li role="presentation"><NavLink to="/video">Video</NavLink></li>
+                        <li role="presentation"><NavLink to="/antd">Antd</NavLink></li>
                     </ul>
                 </nav>
 
@@ -25,6 +27,7 @@ class App extends React.Component {
                     <Route path="/comment"><CommentApp/></Route>
                     <Route path="/router"><RouterApp/></Route>
                     <Route path="/video"><VideoApp/></Route>
+                    <Route path="/antd"><AntdApp/></Route>
                     <Route path="/"><Home/></Route>
                 </Switch>
             </div>
