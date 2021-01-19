@@ -6,6 +6,7 @@ import RouterApp from "./component/router/RouterApp";
 import Home from "./component/Home";
 import VideoApp from "./component/video/VideoApp";
 import AntdApp from "./component/antd/AntdApp";
+import SearchPubSubApp from "./component/search-pub-sub/SearchPubSubApp";
 
 class App extends React.Component {
     render() {
@@ -15,6 +16,7 @@ class App extends React.Component {
                     <ul className="nav nav-pills">
                         <li role="presentation" className="active"><NavLink to="/">Home</NavLink></li>
                         <li role="presentation"><NavLink to="/search">Search</NavLink></li>
+                        <li role="presentation"><NavLink to="/SearchPubSubApp">Search 发布订阅</NavLink></li>
                         <li role="presentation"><NavLink to="/comment">Comment</NavLink></li>
                         <li role="presentation"><NavLink to="/router">React Router</NavLink></li>
                         <li role="presentation"><NavLink to="/video">Video</NavLink></li>
@@ -24,6 +26,7 @@ class App extends React.Component {
 
                 <Switch>
                     <Route path="/search"><SearchApp/></Route>
+                    <Route path="/SearchPubSubApp"><SearchPubSubApp/></Route>
                     <Route path="/comment"><CommentApp/></Route>
                     <Route path="/router"><RouterApp/></Route>
                     <Route path="/video"><VideoApp/></Route>
