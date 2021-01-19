@@ -42,16 +42,17 @@ class VideoApp extends React.Component {
             .then(res => {
                 const stockAudiosText = res.data.stockAudios.join(' ');
                 this.setState({stockAudiosText})
+                console.log(stockAudiosText)
             })
     }
 
     render() {
         return (
-            <div id="container">
+            <div id="container" className='container'>
                 <h2>Video</h2>
-                <button onClick={this.getStockAudiosText}>get data</button>
-                <button onClick={this.startAudio}>startAudio</button>
-                <button onClick={this.stopAudio}>stopAudio</button>
+                <button className='btn-default' onClick={this.getStockAudiosText}>get data</button>
+                <button className='btn-default' onClick={this.startAudio}>startAudio</button>
+                <button className='btn-default' onClick={this.stopAudio}>stopAudio</button>
             </div>
         )
     }
