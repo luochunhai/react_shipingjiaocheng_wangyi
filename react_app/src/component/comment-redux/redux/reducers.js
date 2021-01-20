@@ -1,12 +1,14 @@
 /**
  * 包含n个 reducer函数的 模块 (根据老的state和action，返回一个新的state)
  */
-import {ADD_COMMENT, DELETE_COMMENT} from "./action-types";
+import {ADD_COMMENT, DELETE_COMMENT, RECEIVE_COMMENT} from "./action-types";
 
-const initComments = [
-    {userName: 'Tom', content: 'React 11'},
-    {userName: 'Jack', content: 'React 21'}
-]
+// const initComments = [
+//     {userName: 'Tom', content: 'React 11'},
+//     {userName: 'Jack', content: 'React 21'}
+// ]
+
+const initComments = []
 
 export function comments(state = initComments, action) {
     switch (action.type) {
@@ -14,6 +16,8 @@ export function comments(state = initComments, action) {
             return [action.data, ...state]
         case DELETE_COMMENT:
             return state.filter((comment, index) => index !== action.data)
+        case RECEIVE_COMMENT:
+            return action.data
         default:
             return state;
     }

@@ -3,10 +3,13 @@ import * as React from "react";
 import CommentAdd from "../../components/comment-add/CommentAdd";
 import CommentList from "../../components/comment-list/CommentList";
 import {connect} from 'react-redux'
-import {addComment, deleteComment} from '../../redux/actions'
+import {addComment, deleteComment, getComments} from '../../redux/actions'
 
 class CommentReduxApp extends React.Component {
 
+    componentDidMount() {
+        this.props.getComments()
+    }
 
     render() {
         const {comments, addComment, deleteComment} = this.props
@@ -31,5 +34,5 @@ class CommentReduxApp extends React.Component {
 }
 
 export default connect(
-    state => ({comments: state}), {addComment, deleteComment}
+    state => ({comments: state}), {addComment, deleteComment, getComments}
 )(CommentReduxApp);
