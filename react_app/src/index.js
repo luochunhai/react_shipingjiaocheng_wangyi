@@ -5,13 +5,14 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {BrowserRouter} from 'react-router-dom';
 
-import {createStore} from 'redux'
-import {counter} from './component/redux/reducers'
-
-//生成一个store 对象
-//内部会第一次调用reducer,得到初始state
-const store = createStore(counter)
-console.log(store, store.getState())
+// import {createStore} from 'redux'
+// import {counter} from './component/redux/reducers'
+//
+// //生成一个store 对象
+// //内部会第一次调用reducer,得到初始state
+// const store = createStore(counter)
+// console.log(store, store.getState())
+import store from './component/redux/store'
 
 function render(){
     ReactDOM.render(
@@ -29,7 +30,7 @@ function render(){
 render()
 
 // 订阅监听（store中的状态变化了，就会自动调用进行重绘）
-store.subscribe(render())
+store.subscribe(render)
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))

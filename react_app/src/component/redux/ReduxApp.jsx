@@ -1,6 +1,7 @@
 import * as React from "react";
 import './redux-app.css'
-import {DECREMENT, INCREMENT} from './action-types'
+import * as actions from './actions';
+
 
 class ReduxApp extends React.Component {
 
@@ -8,14 +9,14 @@ class ReduxApp extends React.Component {
         // 1. 得到选择的增加数量
         const number = this.select.value * 1
         // 2. 调用 store 的方法 更新状态
-        this.props.store.dispatch({type: INCREMENT, data: number})
+        this.props.store.dispatch(actions.incrementCreator(number))
     }
 
     decrement = () => {
         // 1. 得到选择的增加数量
         const number = this.select.value * 1
         // 2. 调用 store 的方法 更新状态
-        this.props.store.dispatch({type: DECREMENT, data: number})
+        this.props.store.dispatch(actions.decrementCreator(number))
     }
 
     incrementIfOdd = () => {
@@ -25,7 +26,7 @@ class ReduxApp extends React.Component {
         const count = this.props.store.getState()
         // 3. 更新状态
         if (count % 2 === 1) {
-            this.props.store.dispatch({type: INCREMENT, data: number})
+            this.props.store.dispatch(actions.incrementCreator(number))
         }
     }
 
@@ -35,7 +36,7 @@ class ReduxApp extends React.Component {
 
         // 3. 更新状态
         setTimeout(() => {
-            this.props.store.dispatch({type: INCREMENT, data: number})
+            this.props.store.dispatch(actions.incrementCreator(number))
         }, 1000)
     }
 
