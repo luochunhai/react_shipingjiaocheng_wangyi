@@ -8,8 +8,8 @@ import VideoApp from "./component/video/VideoApp";
 import AntdApp from "./component/antd/AntdApp";
 import SearchPubSubApp from "./component/search-pub-sub/SearchPubSubApp";
 import CommentPubSubApp from "./component/comment-pub-sub/app/CommentPubSubApp";
-import ReduxApp from "./component/redux/ReduxApp";
 import CountApp from "./component/count/CountApp";
+import ReactReduxApp from "./component/react-redux/containers/ReactReduxApp";
 
 class App extends React.Component {
     render() {
@@ -21,12 +21,14 @@ class App extends React.Component {
                         <li role="presentation"><NavLink to="/search">Search</NavLink></li>
                         <li role="presentation"><NavLink to="/SearchPubSubApp">Search 发布订阅</NavLink></li>
                         <li role="presentation"><NavLink to="/comment">Comment</NavLink></li>
-                        <li role="presentation"><NavLink to="/comment-pub-sub">Comment  发布订阅</NavLink></li>
+                        <li role="presentation"><NavLink to="/comment-pub-sub">Comment 发布订阅</NavLink></li>
                         <li role="presentation"><NavLink to="/router">React Router</NavLink></li>
                         <li role="presentation"><NavLink to="/video">Video</NavLink></li>
                         <li role="presentation"><NavLink to="/antd">Antd</NavLink></li>
                         <li role="presentation"><NavLink to="/CountApp">CountApp</NavLink></li>
                         <li role="presentation"><NavLink to="/Redux">Count Redux应用</NavLink></li>
+                        <li role="presentation"><NavLink to="/Redux">Count Redux应用</NavLink></li>
+                        <li role="presentation"><NavLink to="/ReactReduxApp">ReactReduxApp 应用</NavLink></li>
 
                     </ul>
                 </nav>
@@ -40,7 +42,8 @@ class App extends React.Component {
                     <Route path="/video"><VideoApp/></Route>
                     <Route path="/antd"><AntdApp/></Route>
                     <Route path="/CountApp"><CountApp/></Route>
-                    <Route path="/Redux"><ReduxApp store={this.props.store}/></Route>
+                    {/*<Route path="/Redux"><ReduxApp store={this.props.store}/></Route>*/}
+                    <Route path="/ReactReduxApp"><ReactReduxApp/></Route>
                     <Route path="/"><Home/></Route>
                 </Switch>
             </div>
