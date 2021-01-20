@@ -33,6 +33,9 @@ export default class ReactReduxCounter extends React.Component {
     }
 
     incrementAsync = () => {
+        const number = this.select.value * 1
+        this.props.incrementAsync(number)
+        /**
         // 1. 得到选择的增加数量
         const number = this.select.value * 1
 
@@ -40,6 +43,7 @@ export default class ReactReduxCounter extends React.Component {
         setTimeout(() => {
             this.props.increment(number)
         }, 1000)
+         */
     }
 
     render() {
