@@ -40,7 +40,7 @@ class App extends React.Component {
                     <Route path="/video"><VideoApp/></Route>
                     <Route path="/antd"><AntdApp/></Route>
                     <Route path="/CountApp"><CountApp/></Route>
-                    <Route path="/Redux"><ReduxApp/></Route>
+                    <Route path="/Redux"><ReduxApp store={this.props.store}/></Route>
                     <Route path="/"><Home/></Route>
                 </Switch>
             </div>
