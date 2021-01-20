@@ -9,6 +9,7 @@ import AntdApp from "./component/antd/AntdApp";
 import SearchPubSubApp from "./component/search-pub-sub/SearchPubSubApp";
 import CommentPubSubApp from "./component/comment-pub-sub/app/CommentPubSubApp";
 import ReduxApp from "./component/redux/ReduxApp";
+import CountApp from "./component/count/CountApp";
 
 class App extends React.Component {
     render() {
@@ -24,7 +25,9 @@ class App extends React.Component {
                         <li role="presentation"><NavLink to="/router">React Router</NavLink></li>
                         <li role="presentation"><NavLink to="/video">Video</NavLink></li>
                         <li role="presentation"><NavLink to="/antd">Antd</NavLink></li>
-                        <li role="presentation"><NavLink to="/Redux">Redux</NavLink></li>
+                        <li role="presentation"><NavLink to="/CountApp">CountApp</NavLink></li>
+                        <li role="presentation"><NavLink to="/Redux">Count Redux应用</NavLink></li>
+
                     </ul>
                 </nav>
 
@@ -36,6 +39,7 @@ class App extends React.Component {
                     <Route path="/router"><RouterApp/></Route>
                     <Route path="/video"><VideoApp/></Route>
                     <Route path="/antd"><AntdApp/></Route>
+                    <Route path="/CountApp"><CountApp/></Route>
                     <Route path="/Redux"><ReduxApp/></Route>
                     <Route path="/"><Home/></Route>
                 </Switch>

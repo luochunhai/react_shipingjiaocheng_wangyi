@@ -1,7 +1,7 @@
 import * as React from "react";
-import './redux-app.css'
+import './count-app.css'
 
-class ReduxApp extends React.Component {
+class CountApp extends React.Component {
 
     state = {
         count: 0
@@ -68,4 +68,4 @@ class ReduxApp extends React.Component {
     }
 }
 
-export default ReduxApp;
+export default CountApp;
