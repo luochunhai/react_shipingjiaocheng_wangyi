@@ -9,14 +9,25 @@ class CommentApp extends React.Component {
         super(props);
         this.state = {
             comments: [
-                {userName: 'Tom', content: 'React 1'},
-                {userName: 'Jack', content: 'React 2'}
+                // {userName: 'Tom', content: 'React 1'},
+                // {userName: 'Jack', content: 'React 2'}
             ]
         }
 
         this.addComment = this.addComment.bind(this);
     }
 
+    componentDidMount() {
+        //模拟发送异步请求，获取数据
+        setTimeout(() => {
+            this.setState({
+                comments: [
+                    {userName: 'Tom', content: 'React 1'},
+                    {userName: 'Jack', content: 'React 2'}
+                ]
+            })
+        }, 1000)
+    }
 
     addComment(comment) {
         const {comments} = this.state

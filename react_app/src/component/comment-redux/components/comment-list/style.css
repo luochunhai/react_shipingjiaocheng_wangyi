@@ -1,0 +1,9 @@
+.reply{
+    margin-top: 0;
+}
+
+li{
+    transition: .5s;
+    overflow: hidden;
+}
+
