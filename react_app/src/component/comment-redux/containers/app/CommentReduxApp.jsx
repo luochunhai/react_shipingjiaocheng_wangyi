@@ -34,5 +34,5 @@ class CommentReduxApp extends React.Component {
 }
 
 export default connect(
-    state => ({comments: state}), {addComment, deleteComment, getComments}
+    state => ({comments: state.comments}), {addComment, deleteComment, getComments}
 )(CommentReduxApp);

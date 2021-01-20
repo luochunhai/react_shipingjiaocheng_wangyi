@@ -13,7 +13,7 @@ class CommentList extends React.Component {
                 <h2 style={{display: display}}>暂无评论，点击左侧添加评论！</h2>
                 <ul className="list-group">
                     {
-                        comments[0].map((item, index) =>
+                        comments.map((item, index) =>
                             <CommentItem
                                 key={index}
                                 comment={item}

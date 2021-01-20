@@ -6,6 +6,6 @@ import {decrement, increment, incrementAsync} from "../redux/actions";
 // contains 容器 组件
 
 export default connect(
-    state => ({count: state}),
+    state => ({count: state.count}),
     {increment, decrement, incrementAsync}
 )(ReactReduxCounter);
